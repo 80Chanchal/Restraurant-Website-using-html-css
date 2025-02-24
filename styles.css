@@ -1,0 +1,255 @@
+:root {
+    --primary-color: #2C3A47;
+    --accent-color: #B33771;
+    --text-color: #333;
+    --light-text: #fff;
+    --background-light: #fff;
+    --background-dark: #f8f9fa;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --container-width: 1200px;
+    --transition-speed: 0.3s;
+}
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #cd2a2a;
+    }
+    header {
+        background-color: #d35400;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+    }
+    nav {
+        background-color: #333;
+        text-align: center;
+        padding: 10px 0;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+    }
+    nav ul li a:hover {
+        background-color: #d35400;
+        border-radius: 5px;
+    }
+    section {
+        padding: 100px;
+        text-align: center;
+        background-color: #fdfaf8;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    #home{
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: var(--light-text);
+        padding: 0 var(--spacing-sm);
+        margin-top: 60px;
+                
+    }
+    #booking-contents{
+        padding: 40px;
+    }
+
+    #booking:hover form{
+        
+        box-shadow: 3px 6px 8px black;
+        transition: box-shadow 1s ease-in-out 0.3s;
+    }
+    .hero-content h1 {
+        font-size: 3.5rem;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+        margin-bottom: var(--spacing-md);
+    }
+
+    .cta-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background-color: var(--accent-color);
+        color: var(--light-text);
+        text-decoration: none;
+        border-radius: 5px;
+        transition: transform var(--transition-speed), background-color var(--transition-speed);
+    }
+
+    .cta-button:hover {
+        transform: translateY(-2px);
+        background-color: #8B2E5F;
+    }
+    #services{
+        background-image: url("back.jpg");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-attachment: fixed;
+        color:#cd2a2a;
+        font-style: italic;
+        font-size: large;
+    }
+    .about {
+        padding: var(--spacing-lg) 0;
+        background-color: var(--background-dark);
+    }
+    
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-lg);
+        align-items: center;
+    }
+    
+    .about-text {
+        padding-right: var(--spacing-md);
+    }
+    
+    .about-image {
+        background: url('https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height: 400px;
+    }
+    
+    .contact {
+        padding: var(--spacing-lg) 0;
+        background-color: var(--background-dark);
+    }
+    
+    .contact-content {
+        text-align: center;
+    }
+    
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: var(--spacing-md);
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    .info-item {
+        padding: var(--spacing-md);
+    }
+    
+    .info-item i {
+        font-size: 2rem;
+        color: var(--accent-color);
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .menu-category {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .menu-item {
+        background-color: #fff3e0;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        text-align: center;
+    }
+    .menu-item:hover{
+        box-shadow: 3px 6px 8px black;
+        transition: box-shadow 1s ease-in-out 0.1s;
+    }
+
+    .menu-item img {
+        width: 100%;  
+        height: 200px; 
+        object-fit: cover; 
+        border-radius: 8px; 
+    }
+    #seemore{
+        background-color: #eb472a;
+     
+        padding: 8px;
+        border-radius: 5px;
+    }
+    #seemore:hover{
+        background-color: #8B2E5F;
+      
+    }
+    #seemore a{
+        color: #ccc;
+        text-decoration:none;
+        
+    }
+    form {
+        background-color: #fff;
+        padding: 20px;
+        display: inline-block;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    input[type="submit"] {
+        background-color: #d35400;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover {
+        background-color: #b03a00;
+    }
+    .footer {
+        background-color: var(--primary-color);
+        color: var(--light-text);
+        padding: var(--spacing-md) 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-links a {
+        color: var(--light-text);
+        text-decoration: none;
+        margin-left: var(--spacing-md);
+        transition: color var(--transition-speed);
+    }
+    
+    .footer-links a:hover {
+        color: var(--accent-color);
+    }

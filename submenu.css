@@ -1,0 +1,46 @@
+
+#menu{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 20px;
+    background-color:rgba(249, 248, 246, 0.838) ;
+   
+}
+h2{
+   text-align: center;
+   background-color: firebrick;
+   padding: 20px;
+}
+#menu h2{
+    justify-content: center;
+}
+.menu-card {
+    background-color: rgb(238, 184, 5);
+    padding: 15px;
+    margin: 10px auto;
+    width: 250px;
+    border-radius: 10px;
+   
+}
+.menu-card:hover{
+    box-shadow: 3px 6px 8px black;
+    transition: box-shadow 0.5s ease-in-out 0.3s;
+}
+#btn{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: chocolate;
+    padding: 10px;
+    font-size:15px;
+}
+#btn:hover{
+    background-color: brown;
+    font-size: medium;
+}
+.menu-card img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}

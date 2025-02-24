@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bites Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tasty Bites</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#booking">Online Booking</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience Culinary Excellence</h1>
+            <p>Where tradition meets innovation in every dish</p>
+            <a href="#reservations" class="cta-button">Book a Table</a>
+        </div>
+    </section>
+    
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-category">
+            <div class="menu-item">
+                <h3>Chinese Cuisine</h3>
+                <img src="chinese.jpeg" alt="Chinese Cuisine">
+                <p>Noodles, Manchurian, Fried Rice,Chaumin,Sytghak,Dyafacz</p>
+               <button id="seemore"><a href="submenu.html" id="noodles">See More</a></button> 
+            </div>
+            <div class="menu-item">
+                <h3>Punjabi Cuisine</h3>
+                <img src="punjab.jpeg" alt="Punjabi Cuisine">
+                <p>Chole Bhature, Paneer Butter Masala, Sarson da Saag</p>
+               <button id="seemore"><a href="submenu2.html">See More</a></button> 
+            </div>
+            <div class="menu-item">
+                <h3>Maharashtrian Cuisine</h3>
+                <img src="maharashtra.jpeg" alt="Maharashtrian Cuisine">
+                <p>Puran Poli, Misal Pav, Vada Pav,DalBatti,Shev Bhaji</p>
+                <button id="seemore"><a href="submenu1.html">See More</a> </button> 
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer dine-in, takeaway, online ordering, home delivery, and catering services.</p>
+    </section>
+    
+    <section id="booking">
+        <h2>Online Booking</h2>
+        <form id="booking-contents">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required>
+            <input type="submit" value="Book Now">
+        </form>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Founded in 2010, La Maison brings the essence of international culinary artistry to your table. Our team of expert chefs combines traditional techniques with modern innovation to create extraordinary dining experiences.Every dish is crafted with carefully sourced ingredients and presented with artistic flair, making each visit a memorable occasion.</p>
+                </div>
+                <div class="about-image"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>123 Culinary Avenue<br>Gangapur Road, Nashik 422223</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Hours</h3>
+                        <p>Tue-Sun: 5:30 PM - 10:30 PM<br>Closed Mondays</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Contact</h3>
+                        <p>Phone: (212) 555-0123<br>Email: info@lamaison.com</p>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+    </section>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; 2025 Tasty Bites. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
